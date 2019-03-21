@@ -97,11 +97,26 @@ li:nth-child(2) {
   margin: 0 auto;
   padding-bottom: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .comp-info {
   width: 35%;
+  font-family: Helvetica;
+}
+
+.comp-info:last-child {
+  margin-left: 5%;
+}
+
+.comp-info h4 {
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: cadetblue;
 }
 
 /*FOOTER-----------------------------------*/
