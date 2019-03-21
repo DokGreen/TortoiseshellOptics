@@ -65,3 +65,57 @@ li:nth-child(2) {
   line-height: 1.2;
   background-color: #fff;
 }
+/*ICONS----------------------------------*/
+#icons {
+    width: 960px;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.iconinfo {
+  height: 8rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.iconinfo:nth-child(2) {
+  margin: 0 6rem;
+}
+
+.iconinfo img {
+  width: 5rem;
+}
+
+.iconinfo img:first-child{
+  width: 3.5rem;
+}
+
+/*COMPANY-----------------------------*/
+#company {
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comp-info {
+  width: 35%;
+}
+
+/*FOOTER-----------------------------------*/
+#footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: azure;
+}
+
+#footer img {
+  height: 1.5rem;
+  align-items: center;
+  margin-right: 1rem;
+}
