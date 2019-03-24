@@ -135,7 +135,7 @@ li:nth-child(2) {
 
 
 /*HALF SCREEN------------------------------*/
-@media only screen and (max-width:700px) {
+@media only screen and (min-width: 449px) and (max-width:700px) {
   #nav {
     width: 100%;
   }
@@ -162,5 +162,12 @@ li:nth-child(2) {
 
   #footer {
     width: 517px;
+  }
+}
+
+/*MOBILE SCREENS---------------------------*/
+@media only screen and (max-width:448px;){
+  body {
+    color: red;
   }
 }
