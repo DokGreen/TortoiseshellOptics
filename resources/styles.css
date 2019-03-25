@@ -135,21 +135,21 @@ li:nth-child(2) {
 
 
 /*HALF SCREEN------------------------------*/
-@media only screen and (min-width: 449px) and (max-width:700px) {
+@media only screen and (min-width: 481px) and (max-width:768px) {
   #nav {
     width: 100%;
   }
 
   #header {
-    width: 100%;
+    height: 22rem;
   }
 
   #header h3 {
     width: 290px;
     font-size: 1.33rem;
     padding: 0.75rem 2rem;
-    margin-top: 19rem;
-    margin-right: 16rem;
+    margin-top: 14rem;
+    margin-right: 7rem;
   }
 
   #icons {
@@ -166,8 +166,52 @@ li:nth-child(2) {
 }
 
 /*MOBILE SCREENS---------------------------*/
-@media only screen and (max-width:448px;){
-  body {
-    color: red;
+@media only screen and (max-width: 480px){
+  #nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #header {
+    height: 17rem;
+    text-align: center;
+  }
+  #header h3 {
+    width: 100%;
+    margin: 9rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  #icons {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  #company {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .comp-info {
+    width: 280px;
+    margin: 0;
+  }
+/*corrections for the last childs position*/
+  .comp-info:last-child{
+    margin: 10px 2px 0 0;
+  }
+
+  .comp-info h4{
+    width: 100%;
+  }
+
+  #footer {
+    width: 250px;
   }
 }
