@@ -165,17 +165,34 @@ li:nth-child(2) {
   }
 }
 
+/*Break point 1----------------------------*/
+@media only screen and (max-width: 640px) and (min-width: 480px){
+  body {
+    color: red;
+  }
+}
+
 /*MOBILE SCREENS---------------------------*/
 @media only screen and (max-width: 480px){
   #nav {
     width: 100%;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
+
+  #logo {
+    position: relative;
+    left: -45px;
+  }
+
+  #nav ul {
+    display: flex;
+    margin-top: 10px;
+  }
+
   #header {
     height: 17rem;
     text-align: center;
+    margin-bottom: -10px;
   }
   #header h3 {
     width: 100%;
@@ -186,6 +203,7 @@ li:nth-child(2) {
 
   #icons {
     width: 100%;
+    margin: -10px 0;
     flex-direction: column;
     margin-top: 1rem;
     align-items: center;
