@@ -218,7 +218,7 @@ li:nth-child(2) {
     width: 100%;
     position: relative;
     left: -20px;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
