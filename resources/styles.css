@@ -170,6 +170,21 @@ li:nth-child(2) {
   body {
     color: red;
   }
+
+  #header, #icons, #company, #footer {
+    box-sizing: border-box;
+  }
+
+  #logo p {
+    display: none;
+  }
+  .iconinfo:nth-child(2) {
+    margin: 0 3rem;
+  }
+
+  #footer {
+    box-sizing: border-box;
+  }
 }
 
 /*MOBILE SCREENS---------------------------*/
@@ -177,6 +192,7 @@ li:nth-child(2) {
   #nav {
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
 
   #logo {
